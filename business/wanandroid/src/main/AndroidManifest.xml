@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sharkz.wanandroid">
+
+    <application>
+        <activity android:name=".system.WASystemListActivity"></activity>
+        <activity android:name=".system.WASystemActivity" />
+        <activity android:name=".navigation.WANavigationActivity" />
+        <activity
+            android:name=".project.WAProjectActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".officialaccounts.WAOfficialAccountsActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".square.WASquareActivity"
+            android:launchMode="singleTop" />
+    </application>
+
+</manifest>

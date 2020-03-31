@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <corners //圆角属性-->
+<!--    android:radius="integer"-->
+<!--    android:topLeftRadius="integer"-->
+<!--    android:topRightRadius="integer"-->
+<!--    android:bottomLeftRadius="integer"-->
+<!--    android:bottomRightRadius="integer" />-->
+<!--    <gradient //渐变属性-->
+<!--    android:angle="integer"-->
+<!--    android:centerX="integer"-->
+<!--    android:centerY="integer"-->
+<!--    android:centerColor="integer"-->
+<!--    android:endColor="color"-->
+<!--    android:gradientRadius="integer"-->
+<!--    android:startColor="color"-->
+<!--    android:type=["linear" | "radial" | "sweep"]-->
+<!--    android:useLevel=["true" | "false"] />-->
+<!--    <padding //边距属性-->
+<!--    android:left="integer"-->
+<!--    android:top="integer"-->
+<!--    android:right="integer"-->
+<!--    android:bottom="integer" />-->
+<!--    <size //大小属性-->
+<!--    android:width="integer"-->
+<!--    android:height="integer" />-->
+<!--    <solid //填充属性-->
+<!--    android:color="color" />-->
+<!--    <stroke //描边属性-->
+<!--    android:width="integer"-->
+<!--    android:color="color"-->
+<!--    android:dashWidth="integer"-->
+<!--    android:dashGap="integer" />-->
+
+    <corners android:radius="@dimen/sw_10"/>
+    <solid android:color="#4Dffffff"/>
+
+</shape>

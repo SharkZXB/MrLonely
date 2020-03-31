@@ -1,0 +1,11 @@
+include ':app',
+        'business:tabvideo',
+        'business:tabmine',
+        'business:webview'
+
+rootProject.name='MrLonely'
+include ':business:tabmusic'
+include ':business:account'
+include ':business:wanandroid'
+include ':business:guide'
+include ':business:embeddedrn'

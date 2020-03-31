@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null">
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/sw_10"
+        android:layout_marginTop="@dimen/sw_10"
+        android:layout_marginEnd="@dimen/sw_10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <!--        &lt;!&ndash; 版本一 &ndash;&gt;-->
+        <!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginBottom="@dimen/sw_10"-->
+        <!--            android:visibility="gone"-->
+        <!--            tools:ignore="MissingConstraints">-->
+
+        <!--            &lt;!&ndash; 广场 &ndash;&gt;-->
+        <!--            <ImageView-->
+        <!--                android:id="@+id/iv_1"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="@dimen/sw_80"-->
+        <!--                android:layout_marginStart="@dimen/sw_10"-->
+        <!--                android:layout_marginEnd="@dimen/sw_10"-->
+        <!--                android:src="@mipmap/ic_launcher"-->
+        <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--                app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--                app:layout_constraintRight_toLeftOf="@+id/iv_2"-->
+        <!--                app:layout_constraintTop_toTopOf="parent"-->
+        <!--                tools:ignore="MissingConstraints" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/tv_1"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="广场"-->
+        <!--                app:layout_constraintLeft_toLeftOf="@id/iv_1"-->
+        <!--                app:layout_constraintRight_toRightOf="@id/iv_1"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/iv_1" />-->
+
+        <!--            &lt;!&ndash; 体系 &ndash;&gt;-->
+        <!--            <ImageView-->
+        <!--                android:id="@+id/iv_2"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="@dimen/sw_80"-->
+        <!--                android:layout_marginStart="@dimen/sw_10"-->
+        <!--                android:layout_marginEnd="@dimen/sw_10"-->
+        <!--                android:src="@mipmap/ic_launcher"-->
+        <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--                app:layout_constraintLeft_toRightOf="@+id/iv_1"-->
+        <!--                app:layout_constraintRight_toLeftOf="@+id/iv_3"-->
+        <!--                app:layout_constraintTop_toTopOf="parent"-->
+        <!--                tools:ignore="MissingConstraints" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/tv_2"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="体系"-->
+        <!--                app:layout_constraintLeft_toLeftOf="@id/iv_2"-->
+        <!--                app:layout_constraintRight_toRightOf="@id/iv_2"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/iv_2" />-->
+
+        <!--            &lt;!&ndash; 导航 &ndash;&gt;-->
+        <!--            <ImageView-->
+        <!--                android:id="@+id/iv_3"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="@dimen/sw_80"-->
+        <!--                android:layout_marginStart="@dimen/sw_10"-->
+        <!--                android:layout_marginEnd="@dimen/sw_10"-->
+        <!--                android:src="@mipmap/ic_launcher"-->
+        <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--                app:layout_constraintLeft_toRightOf="@+id/iv_2"-->
+        <!--                app:layout_constraintRight_toLeftOf="@+id/iv_4"-->
+        <!--                app:layout_constraintTop_toTopOf="parent"-->
+        <!--                tools:ignore="MissingConstraints" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/tv_3"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="导航"-->
+        <!--                app:layout_constraintLeft_toLeftOf="@id/iv_3"-->
+        <!--                app:layout_constraintRight_toRightOf="@id/iv_3"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/iv_3" />-->
+
+        <!--            &lt;!&ndash; 项目 &ndash;&gt;-->
+        <!--            <ImageView-->
+        <!--                android:id="@+id/iv_4"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="@dimen/sw_80"-->
+        <!--                android:layout_marginStart="@dimen/sw_10"-->
+        <!--                android:layout_marginEnd="@dimen/sw_10"-->
+        <!--                android:src="@mipmap/ic_launcher"-->
+        <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--                app:layout_constraintLeft_toRightOf="@+id/iv_3"-->
+        <!--                app:layout_constraintRight_toRightOf="parent"-->
+        <!--                app:layout_constraintTop_toTopOf="parent"-->
+        <!--                tools:ignore="MissingConstraints" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/tv_4"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="项目"-->
+        <!--                app:layout_constraintLeft_toLeftOf="@id/iv_4"-->
+        <!--                app:layout_constraintRight_toRightOf="@id/iv_4"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/iv_4" />-->
+
+
+        <!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

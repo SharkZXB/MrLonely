@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/ivBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/account_bg2" />
+
+    <!-- 图标 -->
+    <ImageView
+        android:id="@+id/ivUserIcon1"
+        android:layout_width="@dimen/sw_50"
+        android:layout_height="@dimen/sw_50"
+        android:layout_marginStart="@dimen/sw_20"
+        android:padding="@dimen/sw_10"
+        android:src="@mipmap/account_icon"
+        app:layout_constraintBottom_toTopOf="@+id/ivUserIcon2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <!-- 用户名输入框-->
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/sw_50"
+        android:layout_marginStart="@dimen/sw_20"
+        android:layout_marginEnd="@dimen/sw_20"
+        android:background="@null"
+        android:hint="请输入用户名"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toRightOf="@+id/ivUserIcon1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ivUserIcon1"
+        tools:ignore="MissingConstraints" />
+
+
+    <!-- 密码 ===================================================== -->
+
+    <!-- 图标 -->
+    <ImageView
+        android:id="@+id/ivUserIcon2"
+        android:layout_width="@dimen/sw_50"
+        android:layout_height="@dimen/sw_50"
+        android:layout_marginStart="@dimen/sw_20"
+        android:padding="@dimen/sw_10"
+        android:src="@mipmap/account_pwd"
+        app:layout_constraintBottom_toTopOf="@+id/ivUserIcon3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <!-- 密码输入框-->
+    <EditText
+        android:id="@+id/etPWD"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/sw_50"
+        android:layout_marginStart="@dimen/sw_20"
+        android:layout_marginEnd="@dimen/sw_20"
+        android:background="@null"
+        android:hint="请输入密码"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivUserIcon2"
+        app:layout_constraintLeft_toRightOf="@+id/ivUserIcon2"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <!-- 再次输入密码   ===================================================== -->
+
+    <!-- 图标 -->
+    <ImageView
+        android:id="@+id/ivUserIcon3"
+        android:layout_width="@dimen/sw_50"
+        android:layout_height="@dimen/sw_50"
+        android:layout_marginStart="@dimen/sw_20"
+        android:layout_marginBottom="@dimen/sw_20"
+        android:padding="@dimen/sw_10"
+        android:src="@mipmap/account_pwd"
+        app:layout_constraintBottom_toTopOf="@+id/tvSwitch"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <!-- 密码再次输入框-->
+    <EditText
+        android:id="@+id/etRePWD"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/sw_50"
+        android:layout_marginStart="@dimen/sw_20"
+        android:layout_marginEnd="@dimen/sw_20"
+        android:background="@null"
+        android:hint="请输入密码"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivUserIcon3"
+        app:layout_constraintLeft_toRightOf="@+id/ivUserIcon3"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="ivUserIcon3,etRePWD" />
+
+    <!-- 确认按钮   ===================================================== -->
+
+    <TextView
+        android:id="@+id/tvSwitch"
+        android:layout_width="@dimen/sw_60"
+        android:layout_height="@dimen/sw_40"
+        android:layout_marginEnd="@dimen/sw_20"
+        android:layout_marginBottom="@dimen/sw_20"
+        android:gravity="center"
+        android:text="注册"
+        app:layout_constraintBottom_toTopOf="@+id/tvLogin"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sw_40"
+        android:layout_marginStart="@dimen/sw_20"
+        android:layout_marginEnd="@dimen/sw_20"
+        android:layout_marginBottom="@dimen/sw_50"
+        android:background="@drawable/account_shape_bg_1"
+        android:gravity="center"
+        android:text="登录"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

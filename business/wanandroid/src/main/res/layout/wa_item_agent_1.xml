@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:id="@+id/rootLayout"
+    android:layout_height="wrap_content">
+
+    <!-- 广场 -->
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="@dimen/sw_60"
+        android:layout_height="@dimen/sw_60"
+        android:layout_marginStart="@dimen/sw_10"
+        android:layout_marginTop="@dimen/sw_10"
+        android:layout_marginEnd="@dimen/sw_10"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sw_10"
+        android:layout_marginBottom="@dimen/sw_10"
+        android:text="广场"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/ivIcon"
+        app:layout_constraintRight_toRightOf="@id/ivIcon"
+        app:layout_constraintTop_toBottomOf="@+id/ivIcon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
