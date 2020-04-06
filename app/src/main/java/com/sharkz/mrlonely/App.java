@@ -15,7 +15,7 @@ import com.sharkz.tool.kit.LoggerTool;
  * 作    者：SharkZ
  * 邮    箱：229153959@qq.com
  * 创建日期：2020-01-11  18:05
- * 描    述
+ * 描    述 Application
  * 修订历史：
  * ================================================
  */
@@ -56,11 +56,10 @@ public class App extends FrameworkApplication {
     }
 
 
-    // =============================================================================================
+    // =======================下面是SDK初始化回调的监听器===============================================
 
-    public static boolean isSDKAsyncComplete = false;
-
-    private static AsyncLoadSDKListener sdkListener;
+    public static boolean isSDKAsyncComplete = false;   // SDK 初始化标示
+    private static AsyncLoadSDKListener sdkListener;    // 回调监听器
 
     public static void setAsyncLoadSDKListener(AsyncLoadSDKListener sdkListener) {
         App.sdkListener = sdkListener;

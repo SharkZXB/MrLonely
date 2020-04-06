@@ -50,7 +50,7 @@ public class SplashActivity extends AppCompatActivity implements AsyncLoadSDKLis
         if (PreferenceUtils.getBoolean(AppConstant.IS_SHOW_GUIDE, true)) {
 
             // 设置标示
-            PreferenceUtils.putBoolean(AppConstant.IS_SHOW_GUIDE, true);
+            PreferenceUtils.putBoolean(AppConstant.IS_SHOW_GUIDE, false);
             // 界面跳转
             GuideModuleService guideModuleService = ARouter.getInstance().navigation(GuideModuleService.class);
             if (guideModuleService != null) {
