@@ -5,11 +5,11 @@ import android.app.Application;
 import com.sharkz.applauncher.executor.Schedulers;
 import com.sharkz.applauncher.task.LaunchTask;
 import com.sharkz.arouter.Init_ARouterModule;
+import com.sharkz.datastorage.sp.PreferenceUtils;
 import com.sharkz.mrlonely.BuildConfig;
 import com.sharkz.smartrefreshlayout.Init_SmartRefreshLayoutModule;
 import com.sharkz.swipebacklayout.Init_SwipeBackLayout;
 import com.sharkz.tool.kit.LeakCanaryTool;
-import com.sharkz.tool.kit.PreferenceUtils;
 
 /**
  * ================================================
@@ -34,7 +34,7 @@ public class SDKLauncherIOTask extends LaunchTask {
         Init_SmartRefreshLayoutModule.init();                       // 下啦刷新
         Init_ARouterModule.init(application, BuildConfig.DEBUG);    // 路由
         PreferenceUtils.initSP(application);                        // SP
-        LeakCanaryTool.setupLeakCanary(application);                // 内存泄漏
+       // LeakCanaryTool.setupLeakCanary(application);                // 内存泄漏
     }
 
     @Override

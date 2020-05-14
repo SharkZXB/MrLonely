@@ -7,8 +7,8 @@ import android.os.Bundle;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.just.agentweb.guide.GuideModuleService;
+import com.sharkz.datastorage.sp.PreferenceUtils;
 import com.sharkz.mrlonely.task.AsyncLoadSDKListener;
-import com.sharkz.tool.kit.PreferenceUtils;
 
 
 /**

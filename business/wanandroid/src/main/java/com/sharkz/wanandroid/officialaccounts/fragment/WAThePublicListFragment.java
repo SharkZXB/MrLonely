@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.scwang.smartrefresh.layout.api.RefreshLayout;
 import com.sharkz.framework.base.fragment.FWBaseMvpFragment2;
-import com.sharkz.section.recyclerview.SectionSpacesItemDecoration1;
+import com.sharkz.recyclerview.SectionSpacesItemDecoration1;
 import com.sharkz.wanandroid.officialaccounts.adapter.WAThePublicListFragmentAdapter;
 import com.sharkz.wanandroid.officialaccounts.bean.WAThePublicListBean;
 import com.sharkz.wanandroid.officialaccounts.mvp.WAThePublicAPIContract;

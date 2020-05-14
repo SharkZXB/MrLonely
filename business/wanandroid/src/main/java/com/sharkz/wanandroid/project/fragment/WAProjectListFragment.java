@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.scwang.smartrefresh.layout.api.RefreshLayout;
 import com.sharkz.framework.base.fragment.FWBaseMvpFragment2;
-import com.sharkz.section.recyclerview.SectionSpacesItemDecoration1;
+import com.sharkz.recyclerview.SectionSpacesItemDecoration1;
 import com.sharkz.wanandroid.project.adapter.WAProjectListFragmentAdapter;
 import com.sharkz.wanandroid.project.bean.WAProjectListBean;
 import com.sharkz.wanandroid.project.mvp.WAProjectAPIContract;

@@ -4,10 +4,10 @@ import com.didichuxing.doraemonkit.DoraemonKit;
 import com.sharkz.applauncher.AppLauncher;
 import com.sharkz.applauncher.listener.IdleHandler;
 import com.sharkz.framework.FrameworkApplication;
+import com.sharkz.monitor.LoggerTool;
 import com.sharkz.mrlonely.task.AsyncLoadSDKListener;
 import com.sharkz.mrlonely.task.SDKLauncherIOTask;
 import com.sharkz.mrlonely.task.SDKLauncherUITask;
-import com.sharkz.tool.kit.LoggerTool;
 
 
 /**

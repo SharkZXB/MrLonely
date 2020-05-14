@@ -6,8 +6,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.6.2'
-        classpath 'com.jakewharton:butterknife-gradle-plugin:10.2.1'
+        classpath 'com.android.tools.build:gradle:3.6.3'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -23,7 +22,7 @@ allprojects {
         // TODO 这里使用了 本地 maven 下面的路径是本地仓库路径
         maven { url 'file:////Users/sharkz/Desktop/Sunflowertreasuredian/SDK/' }
         // git 仓库地址 TODO 这里切换一下 使用线上的
-        // maven { url "https://raw.githubusercontent.com/SharkZXB/Output/master" }
+        // maven { url "https://raw.githubusercontent.com/SharkZXB/SDK/master" }
     }
 }
 

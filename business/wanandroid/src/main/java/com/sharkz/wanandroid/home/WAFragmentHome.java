@@ -18,7 +18,7 @@ import com.alibaba.android.arouter.facade.annotation.Route;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.scwang.smartrefresh.layout.api.RefreshLayout;
 import com.sharkz.framework.base.fragment.FWBaseMvpFragment2;
-import com.sharkz.section.recyclerview.SectionSpacesItemDecoration1;
+import com.sharkz.recyclerview.SectionSpacesItemDecoration1;
 import com.sharkz.wanandroid.R;
 import com.sharkz.wanandroid.WanAndroidARouterConstant;
 import com.sharkz.wanandroid.home.adapter.WAHomeAdapter;

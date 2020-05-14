@@ -9,9 +9,8 @@ import androidx.annotation.Nullable;
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
-import com.sharkz.glide.GlideImage;
+import com.sharkz.images.glide.GlideImage;
 import com.sharkz.wanandroid.R;
-import com.sharkz.wanandroid.officialaccounts.bean.WAThePublicListBean;
 import com.sharkz.wanandroid.project.bean.WAProjectListBean;
 import com.sharkz.webview.WebViewService;
 

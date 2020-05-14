@@ -15,9 +15,6 @@ import com.sharkz.account.mvp.AccountAPIContract;
 import com.sharkz.account.mvp.AccountPresenter;
 import com.sharkz.framework.base.activity.FWBaseMvpActivity;
 
-import butterknife.BindView;
-import butterknife.OnClick;
-
 import static com.sharkz.account.LoginTool.callBack;
 
 
@@ -32,21 +29,13 @@ import static com.sharkz.account.LoginTool.callBack;
  */
 public class LoginActivity extends FWBaseMvpActivity<AccountPresenter> implements AccountAPIContract.View {
 
-    @BindView(R2.id.ivBg)
     ImageView ivBg;
-    @BindView(R2.id.etName)
     EditText etName;
-    @BindView(R2.id.etPWD)
     EditText etPWD;
-    @BindView(R2.id.etRePWD)
     EditText etRePWD;
-    @BindView(R2.id.tvSwitch)
     TextView tvSwitch;
-    @BindView(R2.id.tvLogin)
     TextView tvLogin;
-    @BindView(R2.id.group)
     Group group;
-
 
     private boolean isLogin = true;  // 当前是否是登录模式
 
@@ -78,7 +67,13 @@ public class LoginActivity extends FWBaseMvpActivity<AccountPresenter> implement
 
     @Override
     public void initView() {
-
+        ivBg= bind(R.id.ivBg);
+        etName= bind(R.id.etName);
+        etPWD= bind(R.id.etPWD);
+        etRePWD= bind(R.id.etRePWD);
+        tvSwitch= bind(R.id.tvSwitch);
+        tvLogin= bind(R.id.tvLogin);
+        group= bind(R.id.group);
     }
 
     @Override
@@ -135,8 +130,7 @@ public class LoginActivity extends FWBaseMvpActivity<AccountPresenter> implement
 
     // =============================================================================================
 
-    @OnClick({R2.id.tvLogin})
-    public void onClickBtn() {
+    public void onClickBtn(View view) {
         if (TextUtils.isEmpty(etName.getText().toString())) {
             Toast.makeText(this, "请输入用户名", Toast.LENGTH_SHORT).show();
             return;
@@ -157,8 +151,7 @@ public class LoginActivity extends FWBaseMvpActivity<AccountPresenter> implement
 
     }
 
-    @OnClick({R2.id.tvSwitch})
-    public void onClickBtnSwitch() {
+    public void onClickBtnSwitch(View view) {
         if (TextUtils.equals(tvSwitch.getText(), "登录")) {
             group.setVisibility(View.GONE);
             tvSwitch.setText("注册");

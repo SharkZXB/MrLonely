@@ -45,6 +45,7 @@ dependencies {
     implementation "com.google.android.material:material:1.1.0"
 
     api 'com.sharkz.sdk:coolview:1.0.0'
+    api 'com.sharkz.sdk:datastorage:1.0.0'
     api 'com.sharkz.sdk:smallestwidth:1.0.0'
 
     // 路由
