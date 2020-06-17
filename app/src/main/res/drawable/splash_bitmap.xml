@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 背景图 -->
+<!--    <item android:drawable="@android:color/white" />-->
+
+    <!-- 主图 -->
+    <item>
+        <bitmap
+            android:scaleType="centerInside"
+            android:src="@mipmap/white"
+            android:tileMode="disabled" />
+    </item>
+
+<!--    <item-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:top="@dimen/sw_50"-->
+<!--        >-->
+
+<!--        <bitmap-->
+<!--            android:scaleType="centerInside"-->
+<!--            android:src="@mipmap/gpngx1"-->
+<!--            android:tileMode="disabled" />-->
+<!--    </item>-->
+
+<!--    <item-->
+<!--        android:width="@dimen/sw_120"-->
+<!--        android:height="@dimen/sw_45"-->
+<!--        android:bottom="@dimen/sw_54"-->
+<!--        android:gravity="bottom|center_horizontal">-->
+
+<!--        <bitmap-->
+<!--            android:scaleType="centerInside"-->
+<!--            android:src="@mipmap/migu"-->
+<!--            android:tileMode="disabled" />-->
+<!--    </item>-->
+
+</layer-list>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!-- 下面这个是 暗黑模式的 -->
+
+    <!-- 背景图 -->
+<!--    <item android:drawable="@android:color/white" />-->
+
+    <!-- 主图 -->
+    <item android:gravity="center_vertical|top">
+        <bitmap
+            android:scaleType="centerInside"
+            android:src="@mipmap/black"
+            android:tileMode="disabled" />
+    </item>
+
+    <!-- icon 89 271 54-->
+    <item
+        android:width="@dimen/sw_120"
+        android:height="@dimen/sw_45"
+        android:bottom="@dimen/sw_54"
+        android:gravity="bottom|center_horizontal">
+
+        <bitmap
+            android:scaleType="centerInside"
+            android:src="@mipmap/migu"
+            android:tileMode="disabled" />
+    </item>
+
+</layer-list>
