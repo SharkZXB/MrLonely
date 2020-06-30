@@ -6,9 +6,10 @@
 
     <!-- 主图 -->
     <item>
+<!--        <nine-patch-->
         <bitmap
             android:scaleType="centerInside"
-            android:src="@mipmap/white"
+            android:src="@mipmap/startingwindow_bg"
             android:tileMode="disabled" />
     </item>
 

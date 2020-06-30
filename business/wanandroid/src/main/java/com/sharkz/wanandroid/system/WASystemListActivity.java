@@ -5,7 +5,6 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.google.android.material.tabs.TabLayout;
-import com.hjq.toast.ToastUtils;
 import com.sharkz.framework.base.activity.FWBaseSimpleActivity;
 import com.sharkz.framework.base.fragment.FWLazyPagerAdapter;
 import com.sharkz.wanandroid.R;

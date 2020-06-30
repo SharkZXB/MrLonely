@@ -41,6 +41,7 @@ dependencies {
 
     api 'com.sharkz.sdk:framework:1.0.0'
     api 'com.sharkz.sdk:toolkit:1.0.0'
+    api 'com.sharkz.sdk:toast:1.0.0'
 
     // 路由
     api 'com.sharkz.sdk:arouter:1.0.0'

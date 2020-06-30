@@ -21,33 +21,33 @@
 
 
     <!--闪屏页-->
-    <!--    <style name="SplashTheme" parent="AppTheme">-->
-    <!--        <item name="windowActionBar">false</item>-->
-    <!--        <item name="windowNoTitle">true</item>-->
+        <style name="SplashTheme" parent="AppTheme">
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
 
-    <!--&lt;!&ndash;        <item name="android:windowTranslucentStatus">true</item>&ndash;&gt;-->
-    <!--        <item name="android:windowDrawsSystemBarBackgrounds">false</item>-->
+    <!--        <item name="android:windowTranslucentStatus">true</item>-->
+            <item name="android:windowDrawsSystemBarBackgrounds">false</item>
 
-    <!--&lt;!&ndash;        <item name="android:windowFullscreen">true</item>&ndash;&gt;-->
-    <!--        <item name="android:statusBarColor">@android:color/transparent</item>-->
-    <!--        <item name="android:navigationBarColor">@android:color/transparent</item>-->
+            <item name="android:windowFullscreen">true</item>
+            <item name="android:statusBarColor">@android:color/transparent</item>
+            <item name="android:navigationBarColor">@android:color/transparent</item>
 
-    <!--        <item name="android:windowBackground">@mipmap/qidongye</item>-->
-    <!--&lt;!&ndash;        <item name="android:windowBackground">@drawable/splash_bitmap</item>&ndash;&gt;-->
-    <!--&lt;!&ndash;        <item name="android:windowBackground">@color/startingwindow_bgcolor</item>&ndash;&gt;-->
-    <!--    </style> -->
+            <item name="android:windowBackground">@mipmap/white</item>
+    <!--        <item name="android:windowBackground">@drawable/splash_bitmap</item>-->
+    <!--        <item name="android:windowBackground">@color/startingwindow_bgcolor</item>-->
+        </style>
 
-    <style name="SplashTheme" parent="AppTheme">
-        <item name="actionBarSize">@dimen/sw_88</item>
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:windowFullscreen">true</item>
-        <item name="android:windowBackground">@drawable/splash_bitmap</item>
-        <!--        <item name="android:windowBackground">@drawable/splash_dark_bitmap</item>-->
-        <!--        <item name="android:windowBackground">@mipmap/startingwindow_bg</item>-->
-        <item name="android:windowTranslucentStatus">true</item>
-        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
-    </style>
+<!--    <style name="SplashTheme" parent="AppTheme">-->
+<!--        <item name="actionBarSize">@dimen/sw_88</item>-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+<!--        <item name="android:windowFullscreen">true</item>-->
+<!--        <item name="android:windowBackground">@drawable/splash_bitmap</item>-->
+<!--&lt;!&ndash;                <item name="android:windowBackground">@mipmap/white</item>&ndash;&gt;-->
+<!--&lt;!&ndash;                <item name="android:windowBackground">@mipmap/startingwindow_bg</item>&ndash;&gt;-->
+<!--        <item name="android:windowTranslucentStatus">true</item>-->
+<!--        <item name="android:windowDrawsSystemBarBackgrounds">false</item>-->
+<!--    </style>-->
 
 </resources>

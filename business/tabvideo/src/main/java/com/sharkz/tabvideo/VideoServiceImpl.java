@@ -3,7 +3,7 @@ package com.sharkz.tabvideo;
 import android.content.Context;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
-import com.hjq.toast.ToastUtils;
+import com.sharkz.toast.module.ToastUtils;
 
 /**
  * ================================================

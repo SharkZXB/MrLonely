@@ -2,9 +2,9 @@ package com.sharkz.mrlonely.task;
 
 import android.app.Application;
 
-import com.hjq.toast.ToastUtils;
 import com.sharkz.applauncher.executor.Schedulers;
 import com.sharkz.applauncher.task.LaunchTask;
+import com.sharkz.toast.module.ToastUtils;
 import com.sharkz.tool.Init_Tool;
 
 /**

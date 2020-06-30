@@ -25,7 +25,11 @@ public class SplashActivity extends AppCompatActivity implements AsyncLoadSDKLis
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
+        // setContentView(R.layout.activity_splash);
+
+        if(2>3){
+            return;
+        }
 
         // 回调注册 接受
         if (!App.isSDKAsyncComplete) {

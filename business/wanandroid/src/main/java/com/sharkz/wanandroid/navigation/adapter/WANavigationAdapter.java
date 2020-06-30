@@ -11,7 +11,6 @@ import com.alibaba.android.arouter.launcher.ARouter;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
 import com.google.android.flexbox.FlexboxLayout;
-import com.hjq.toast.ToastUtils;
 import com.sharkz.wanandroid.R;
 import com.sharkz.wanandroid.navigation.bean.WANavigationBean;
 import com.sharkz.webview.WebViewService;

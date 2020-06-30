@@ -4,9 +4,9 @@ import androidx.annotation.NonNull;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.chad.library.adapter.base.BaseQuickAdapter;
-import com.hjq.toast.ToastUtils;
 import com.scwang.smartrefresh.layout.api.RefreshLayout;
 import com.sharkz.framework.base.activity.FWBaseMvpActivity2;
+import com.sharkz.toast.module.ToastUtils;
 import com.sharkz.wanandroid.WanAndroidARouterConstant;
 import com.sharkz.wanandroid.system.adapter.WASystemAdapter;
 import com.sharkz.wanandroid.system.bean.WASystemAPIBean;
